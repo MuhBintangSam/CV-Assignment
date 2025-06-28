@@ -18,7 +18,7 @@
     <a class="tab" href="#education" title="View Education">Education</a>
     <a class="tab" href="#skills" title="View Skills">Skills</a>
   </nav>
-  
+
   <!-- Welcome Section -->
   <section class="welcome-main">
     <div class="welcome-card">
@@ -28,6 +28,7 @@
         <p class="phone">Phone Number: 1234567890</p>
         <button onclick="toggleMusic()" title="Background Music">Play/Pause Music</button>
         <button onclick="location.href='#summary'" title="Learn About Me">Learn About ME!!!</button>
+        <button onclick="toggleDarkMode()" title="Toggle Dark Mode">🌙 Dark Mode</button>
       </div>
     </div>
     <div class="welcome-photo">
@@ -44,6 +45,9 @@
         music.pause();
       }
     }
+      function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
   </script>
 
 <br>
@@ -93,8 +97,8 @@
             <a href="https://x.com/" target="_blank" class="social-btn" title="Twitter">Twitter</a>
           </div>
           <div class="row">
-            <a href="https://www.linkedin.com/feed/" target="_blank" class="social-btn" title="LinkedIn">LinkedIn</a>
-            <a href="https://github.com/dashboard" target="_blank" class="social-btn" title="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/" target="_blank" class="social-btn" title="LinkedIn">LinkedIn</a>
+            <a href="https://github.com/MuhBintangSam" target="_blank" class="social-btn" title="GitHub">GitHub</a>
           </div>
         </div>
       </div>
