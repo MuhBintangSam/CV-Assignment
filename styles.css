@@ -6,6 +6,18 @@ body {
   padding-top: 120px;
 }
 
+.dark-mode {
+  background-color: #181818;
+  color: #f1f1f1;
+}
+.dark-mode .welcome-card,
+.dark-mode .main-content,
+.dark-mode .education-main-content,
+.dark-mode .skills-main-content {
+  background-color: #222;
+  color: #f1f1f1;
+}
+
 html {
   scroll-behavior: smooth;
 }
